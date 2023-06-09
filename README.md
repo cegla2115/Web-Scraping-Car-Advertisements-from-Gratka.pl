@@ -7,12 +7,14 @@ To do this were used three scrapers: one using Beautiful Soup, one using Scrapy,
 - the output,
 - elementary data analysis.
 
-## In soup folder you have both .ipynb and .py files. To run them you should:
+## In soup folder you have both BS.ipynb and BS.py files which cointains full program to scrape items.
+To run them you should:
 1. Open a command prompt or terminal and install Beautiful Soup if you haven't already: 
 'pip install beautifulsoup4'
 2. Run the BS file, and the data will be scraped and saved to a CSV file named advertisements.csv.
 
-## In scrapy folder you have both .ipynb and .py files. To run them you should:
+## Scrapy folder contain a full project folder, which can be run with scrapy commands.
+To run them you should:
 1. Open a command prompt or terminal and install Scrapy if you haven't already: 
 'pip install scrapy'
 2. Navigate to the scrapy folder: cd path_to_scrapy_folder
@@ -22,7 +24,8 @@ or if you want to save it as .CSV:
 'scrapy crawl adverts -o adverts.csv'
 After the scraping process is complete, you will find the scraped data saved in a CSV file named adverts.csv.
 
-## In selenium folder you have both .ipynb and .py files. To run them you should:
+## In selenium folder you have both Selenium.ipynb and Selenium.py files which cointains full program to scrape items.
+To run them you should:
 1. Open a command prompt or terminal and install Selenium if you haven't already: 
 'pip install selenium'
 2. Download the Chrome WebDriver from the official website (https://sites.google.com/a/chromium.org/chromedriver/downloads) and place it in a directory on your machine.
