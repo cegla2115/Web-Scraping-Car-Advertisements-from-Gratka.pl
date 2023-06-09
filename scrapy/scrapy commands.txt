@@ -1,0 +1,5 @@
+Commands used in terminal:
+
+scrapy startproject advertisements
+scrapy genspider adverts https://gratka.pl/
+scrapy crawl adverts -o adverts.csv
